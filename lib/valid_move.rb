@@ -1,6 +1,6 @@
 # code your #valid_move? method here
 def valid_move?(board, index)
-    position_taken?(board, index) == true
+  if position_taken?(board, index) == true
       #puts "Please choose a position between 0 and 8."
   elsif index <= 8
   else
