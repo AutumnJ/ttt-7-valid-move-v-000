@@ -2,11 +2,11 @@
 def valid_move?(board, index)
     if position_taken?(board, index) == true
       #puts "Please choose a position between 0 and 8."
-    false
+    return false
   elsif index <= 8
-    true
+    return true
   else
-    false
+    return false
   end
 end
 
